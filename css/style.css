@@ -1,0 +1,48 @@
+.thumbnail {position: relative; background:rgba(5, 5, 5, 1);} 
+
+.caption {position: absolute; 
+    top: 45%; 
+    left: 50%; 
+    width: 40%;
+    color: white;} 
+
+.btn-primary{background-color: lightseagreen;
+border-color:lightseagreen;}
+
+.btn-primary2{background-color: rgb(112, 170, 25);
+border-color: rgb(112, 170, 25);
+color: white;}
+
+.mb-3{text-align: center; position: relative; }
+
+.orador{text-align: center; width: 25%; margin: auto;}
+
+.anotate{text-align: center; margin: auto;}
+
+u{text-decoration:underline;
+text-decoration-style: dotted;}
+
+.coment{color: grey;}
+
+.div-der{background-color: rgb(75, 74, 74);
+    color: white;}
+
+
+    #booking {
+        font-family: 'Montserrat', sans-serif;
+
+        background-image: url(../img/ba1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #booking::before {
+        background:rgba(5, 5, 5, 0.6);
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+    }
+
+    
